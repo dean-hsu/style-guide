@@ -18,9 +18,9 @@ storiesOf('Button', module)
     </Button>
   ));
 storiesOf('Counter', module)
-.add('Base', ()=> 
+.add('BASE', ()=> 
 <div>
   <p><h2>Here is my Counter component</h2></p>
-<Counter onClick={action('clicked')}></Counter>
+<Counter></Counter>
 </div>
 )
